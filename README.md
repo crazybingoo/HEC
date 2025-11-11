@@ -94,7 +94,7 @@ The code was originally developed for a study on identifying important nodes in 
 
 ## Requirements
 
-- MATLAB R2021b (tested with R20xxa/b; any recent version should work)
+- MATLAB R2021b (tested with R2021a/b; any recent version should work)
 - Signal Processing Toolbox (for `hilbert`)
 ---
 
