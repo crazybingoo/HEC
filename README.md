@@ -17,7 +17,7 @@ The code was originally developed for a study on identifying important nodes in 
 
 - `HEC_method.m`  
   Hyperedge-based Exponential Centrality (HEC).  
-  Given a binary connection matrix and an initial 2-hyperedge index, constructs a line graph of hyperedges, computes Laplacian energy centrality and shortest-path distances in the line graph, combines them via an exponential model, and maps hyperedge scores back to node-level importance.
+  Given a binary connection matrix and an initial 2-hyperedge index, constructs a hyperedge adjacency graph (1-line graph) of hyperedges, computes Laplacian energy centrality and shortest-path distances in the hyperedge adjacency graph, combines them via an exponential model, and maps hyperedge scores back to node-level importance.
 
 - `HDC.m`  
   Hypergraph Degree Centrality (HDC): counts how many hyperedges each node participates in.
