@@ -53,9 +53,6 @@ The code was originally developed for a study on identifying important nodes in 
 - `demo_SIR_hypergraph.m`  
   Example script demonstrating SIR simulation on a small toy hypergraph.
 
-- `evaluate_HEC_ROC.m`  
-  Compute ROC curve and AUC for HEC-based node scores (EZ vs. NEZ), find the optimal threshold (Youden index), and compute classification metrics (sensitivity, specificity, precision, accuracy).
-
 ### SEEG / epilepsy analysis pipeline
 
 - `main_SEEG_HDC_analysis.m`  
@@ -91,15 +88,14 @@ The code was originally developed for a study on identifying important nodes in 
 
 - `violin_HEC.m`  
   Violin plots of HEC scores across patients (EZ vs. NEZ), with significance labels.
-
+- `evaluate_HEC_ROC.m`  
+  Compute ROC curve and AUC for HEC-based node scores (EZ vs. NEZ), find the optimal threshold (Youden index), and compute classification metrics (sensitivity, specificity, precision, accuracy).
 ---
 
 ## Requirements
 
-- MATLAB R20xx (tested with R20xxa/b; any recent version should work)
+- MATLAB R2021b (tested with R20xxa/b; any recent version should work)
 - Signal Processing Toolbox (for `hilbert`)
-- Statistics and Machine Learning Toolbox (for `perfcurve`, `ksdensity`, etc.)
-
 ---
 
 ## Getting Started
